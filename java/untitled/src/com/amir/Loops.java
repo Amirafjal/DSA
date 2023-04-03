@@ -9,13 +9,21 @@ public class Loops {
             System.out.println(num);
         }
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter some value : ");
+
         int n = input.nextInt();
 
         for (int i = 0; i <= n ; i++) {
           //  System.out.print(i +" ");
-            System.out.println("amir");
+            System.out.print("amir ");
         }
-        //while loops
 
+
+        //while loops
+        int d = 1;
+        while(d<=5){
+            System.out.println(d);
+            d+=1;
+        }
     }
 }
