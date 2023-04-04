@@ -25,5 +25,15 @@ public class Loops {
             System.out.println(d);
             d+=1;
         }
+
+        //do while
+        int l =1;
+        do{
+            System.out.println(l);
+            l++;
+        } while (l<=5);
+
+
+
     }
 }
