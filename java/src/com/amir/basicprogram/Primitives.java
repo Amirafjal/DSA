@@ -1,4 +1,4 @@
-package com.amir;
+package com.amir.basicprogram;
 
 public class Primitives {
     public static void main(String[] args) {

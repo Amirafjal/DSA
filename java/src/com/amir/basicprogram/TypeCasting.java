@@ -1,4 +1,4 @@
-package com.amir;
+package com.amir.basicprogram;
 
 import java.util.Scanner;
 
