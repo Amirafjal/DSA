@@ -4,11 +4,16 @@ import java.util.Scanner;
 
 public class Sum_01 {
     public static void main(String[] args) {
-        int ans = summ();
-        System.out.println(ans);
+        //int ans = summ();
+       // System.out.println(ans);
         //anyname();
         //anyname();
-
+       int adding =  sum3(2,4);
+        System.out.println(adding);
+    }
+    static int sum3(int a , int b){
+        int add = a+b;
+        return add;
     }
     //return the value
     static int summ(){
@@ -41,7 +46,7 @@ public class Sum_01 {
 
         methods or functions in java is like this :::::
 
-        access modifier(we'll look in OOP) return_type name(){
+        access modifier(we'll look in OOP) return_type name(arguments){
                 //body
                 return statement;
         }
