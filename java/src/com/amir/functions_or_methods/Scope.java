@@ -25,6 +25,19 @@ public class Scope {
         System.out.println(name);//not created or initialised original new name so it will execute updated.
        // System.out.println(c); Here created and initialised so not working // wrong because we can't use outside of block , it should be remain in the block to be executable.
 
+        //Scoping in for loops=======
+        for (int i =0;i <=4; i++){
+            System.out.println(i);
+            int num = 90;
+            a =3; //we can not initialised the var already created but we can update it in the for loop scope.
+            System.out.println(a);
+            //int a =9;wrong scope
+        }
+       // System.out.println(i); wrong scope-> outside the for loop not accessible.
+
+
+
+
     }
     static void random(int marks){
         int num = 68;
