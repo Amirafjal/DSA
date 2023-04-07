@@ -1,6 +1,6 @@
 package com.amir.functions_or_methods;
 
-public class Scope {
+public class Scope_06 {
     public static void main(String[] args) {
 
         int a = 10;
