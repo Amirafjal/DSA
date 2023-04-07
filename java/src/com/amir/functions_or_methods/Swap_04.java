@@ -9,9 +9,9 @@ public class Swap_04 {
 //        a = b;
 //        b = temp;
 //        System.out.println(a+ " "+b);
-
-        System.out.println("main method : "+a +" "+b);
         swap(a,b);
+        System.out.println("main method : "+a +" "+b);
+
     }
     static void swap(int num1 , int num2){
 
@@ -19,7 +19,7 @@ public class Swap_04 {
         num1 = num2;
         num2 = temp;
 
-        System.out.println("swap method : "+num1+ " " +num2);
+       // System.out.println("swap method : "+num1+ " " +num2);
     }
 
 }
